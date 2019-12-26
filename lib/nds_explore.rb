@@ -17,7 +17,7 @@ def print_first_directors_movie_titles
   
   while i < steven.length do
     titles = steven[i][:title]
-    puts "\n #{titles}"
+    puts titles
     i+=1
   end
 
