@@ -12,5 +12,5 @@ end
 
 def print_first_directors_movie_titles
   list = directors_database
-  puts  list[:title]
+  puts  list[title]
 end
