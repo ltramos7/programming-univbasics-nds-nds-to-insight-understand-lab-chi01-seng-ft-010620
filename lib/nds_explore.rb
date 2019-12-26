@@ -11,7 +11,7 @@ end
 
 
 def print_first_directors_movie_titles
-  if :name => "Stephen Spielberg"
+  if (:name => "Stephen Spielberg")
     puts directors_database[:name]
   end
   
