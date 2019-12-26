@@ -13,8 +13,10 @@ end
 def print_first_directors_movie_titles
   steven = directors_database[0][:movies]
   
-  while something < steven.count do
-    
+  i = 0 
+  
+  while i < steven.count do
+    titles = 
   end
   
 end
