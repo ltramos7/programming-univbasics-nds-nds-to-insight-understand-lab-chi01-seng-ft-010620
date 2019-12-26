@@ -16,7 +16,9 @@ def print_first_directors_movie_titles
   i = 0 
   
   while i < steven.count do
-    titles = 
+    titles = steven[:title]
   end
+  
+  puts titles
   
 end
